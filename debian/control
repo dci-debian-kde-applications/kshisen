@@ -15,7 +15,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.11),
  kdelibs5-dev (>= 4:4.11),
  libkdegames-dev (>= 4:4.11),
  libkmahjongglib-dev (>= 4:4.11)
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 Homepage: http://games.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kshisen.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kshisen.git
