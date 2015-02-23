@@ -1,17 +1,17 @@
+kshisen (4:14.12.2-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (14.12.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 23 Feb 2015 11:04:52 +0100
+
 kshisen (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
-  * Remove unstable from watch file, uscan fails with 
+  * Remove unstable from watch file, uscan fails with
     remote site does not even have current version
-
- -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 09:43:00 -0800
-
-kshisen (4:14.12.0-0ubuntu1) UNRELEASED; urgency=medium
-
-  * New upstream release
   * Remove kdelibs5-dev depend version as there was not a new release.
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 12 Dec 2014 10:31:25 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 09:43:00 -0800
 
 kshisen (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
@@ -288,4 +288,3 @@ kshisen (4:4.9.90-0ubuntu1) raring-proposed; urgency=low
   * Initial release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Dec 2012 18:05:42 +0000
-
