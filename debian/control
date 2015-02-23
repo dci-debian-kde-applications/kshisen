@@ -17,10 +17,10 @@ Build-Depends: cmake,
                libkdegames-dev (>= 4:14.12.0),
                libkmahjongglib-dev (>= 4:4.11),
                pkg-kde-tools (>= 0.14)
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: http://games.kde.org/
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/kshisen.git/
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/kshisen.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/kshisen.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/kshisen.git
 
 Package: kshisen
 Architecture: any
