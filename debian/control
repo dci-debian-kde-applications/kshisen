@@ -13,23 +13,21 @@ Uploaders: Daniel Schepler <schepler@debian.org>,
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 1.7.0~),
-               kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev,
                kdoctools-dev,
                kio-dev,
-               libkdegames-dev (>= 4:14.12.0),
                libkf5config-dev,
                libkf5coreaddons-dev,
                libkf5dbusaddons-dev,
                libkf5declarative-dev,
                libkf5dnssd-dev,
                libkf5kdegames-dev (>= 4.9.0~),
+               libkf5kdelibs4support-dev,
                libkf5kmahjongglib-dev,
                libkf5newstuff-dev,
                libkf5xmlgui-dev,
-               libkmahjongglib-dev (>= 4:4.11),
                libphonon4qt5-dev,
-               pkg-kde-tools (>= 0.14),
+               libphonon4qt5experimental-dev,
+               pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.4)
 Standards-Version: 3.9.6
 Homepage: http://games.kde.org/
@@ -38,7 +36,9 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/kshisen.git
 
 Package: kshisen
 Architecture: any
-Depends: kdegames-mahjongg-data (>= 4:4.10), ${misc:Depends}, ${shlibs:Depends}
+Depends: kdegames-mahjongg-data-kf5 (>= 4:4.12.0),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Recommends: khelpcenter
 Description: Shisen-Sho solitaire game
  KShisen is a Shisen-Sho game where the player removes adjascent pairs of
