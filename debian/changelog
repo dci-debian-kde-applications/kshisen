@@ -1,10 +1,10 @@
-kshisen (4:15.08.0-1~) UNRELEASED; urgency=medium
+kshisen (4:15.08.0-1~1) UNRELEASED; urgency=medium
 
   * New upstream release (15.04.0).
   * New upstream release (15.04.1).
   * New upstream release (15.08.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 10 Sep 2015 08:41:25 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 12 Sep 2015 00:43:16 +0200
 
 kshisen (4:15.08.0-0ubuntu1) wily; urgency=medium
 
