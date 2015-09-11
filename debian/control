@@ -36,7 +36,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/kshisen.git
 
 Package: kshisen
 Architecture: any
-Depends: kdegames-mahjongg-data-kf5 (>= 4:4.12.0),
+Depends: kdegames-mahjongg-data-kf5,
          ${misc:Depends},
          ${shlibs:Depends}
 Recommends: khelpcenter

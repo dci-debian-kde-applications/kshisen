@@ -3,6 +3,8 @@ kshisen (4:15.08.0-1~1) UNRELEASED; urgency=medium
   * New upstream release (15.04.0).
   * New upstream release (15.04.1).
   * New upstream release (15.08.0).
+  * Drop version in the kdegames-mahjongg-data-kf5 dependency, making it
+    installable.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 12 Sep 2015 00:43:16 +0200
 
