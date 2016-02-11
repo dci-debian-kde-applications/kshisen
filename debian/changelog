@@ -1,8 +1,21 @@
-kshisen (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
+kshisen (4:15.12.1-1ubuntu1) UNRELEASED; urgency=medium
 
-  * New upstream release
+  * Merged with Debian
+  * New upstream release 
 
- -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:15:21 +0000
+ -- Clive Johnston <clivejo@aol.com>  Thu, 11 Feb 2016 12:22:46 +0000
+
+kshisen (4:15.12.1-1) experimental; urgency=medium
+
+  * New upstream release (15.04.0).
+  * New upstream release (15.04.1).
+  * New upstream release (15.08.0).
+  * Drop version in the kdegames-mahjongg-data-kf5 dependency, making it
+    installable.
+  * New upstream release (15.12.0).
+  * New upstream release (15.12.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 01 Feb 2016 10:24:07 +0100
 
 kshisen (4:15.08.2-0ubuntu1) wily; urgency=medium
 
