@@ -1,9 +1,9 @@
-kshisen (4:15.12.1-1ubuntu1) UNRELEASED; urgency=medium
+kshisen (4:15.12.1-1ubuntu1) xenial; urgency=medium
 
   * Merged with Debian
   * New upstream release 
 
- -- Clive Johnston <clivejo@aol.com>  Thu, 11 Feb 2016 12:22:46 +0000
+ -- Clive Johnston <clivejo@aol.com>  Wed, 09 Mar 2016 11:05:02 +0100
 
 kshisen (4:15.12.1-1) experimental; urgency=medium
 
