@@ -36,9 +36,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/kshisen.git
 
 Package: kshisen
 Architecture: any
-Depends: kdegames-mahjongg-data-kf5,
-         ${misc:Depends},
-         ${shlibs:Depends}
+Depends: kdegames-mahjongg-data-kf5, ${misc:Depends}, ${shlibs:Depends}
 Recommends: khelpcenter
 Description: Shisen-Sho solitaire game
  KShisen is a Shisen-Sho game where the player removes adjascent pairs of
