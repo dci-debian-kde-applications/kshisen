@@ -1,11 +1,20 @@
-kshisen (4:16.04.0-1~1.gbp5acc46) UNRELEASED; urgency=medium
+kshisen (4:16.04.0-1~2.gbp39d972) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @39d972ce00d718237b3fa48c712ac7cad95b5188 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @5acc46bb208d42dd44638e8142f2623bfac59928 **
 
   * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 04:57:14 +0200
+  [ Maximiliano Curia ]
+  * Remove menu file and friends
+  * New upstream release (15.12.2).
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 12:57:14 +0200
 
 kshisen (4:15.12.1-1) experimental; urgency=medium
 
