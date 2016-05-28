@@ -1,10 +1,6 @@
-kshisen (4:16.04.1-1~1.gbp0a06cd) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @0a06cd2a778b5dcdd27e06e38021fba1f3a4bc7d **
+kshisen (4:16.04.1-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @5acc46bb208d42dd44638e8142f2623bfac59928 **
-
   * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
@@ -13,9 +9,8 @@ kshisen (4:16.04.1-1~1.gbp0a06cd) UNRELEASED; urgency=medium
   * New upstream release (15.12.2).
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
-  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 10 May 2016 22:57:26 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 19:45:14 +0200
 
 kshisen (4:15.12.1-1) experimental; urgency=medium
 
