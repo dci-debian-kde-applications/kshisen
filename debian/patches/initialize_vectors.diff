@@ -1,0 +1,13 @@
+--- a/src/board.cpp
++++ b/src/board.cpp
+@@ -532,8 +532,8 @@
+ 
+ 
+     std::vector<int> oldfield = m_field;
+-    std::vector<int> tiles;
+-    std::vector<int> pos;
++    std::vector<int> tiles(m_field);
++    std::vector<int> pos(m_field);
+     //jwickers: in case the game cannot made solvable we do not want to run an infinite loop
+     int maxAttempts = 200;
+ 
