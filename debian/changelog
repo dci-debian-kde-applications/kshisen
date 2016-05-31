@@ -1,10 +1,9 @@
-kshisen (4:16.04.1-2~1.gbpa83485) UNRELEASED; urgency=medium
+kshisen (4:16.04.1-2) unstable; urgency=medium
 
-  ** SNAPSHOT build @a834857270b6a639000d6a2386689fc7c0e3c4fa **
+  * Add new patch: initialize_vectors.diff (Closes: #825789) Thanks to shirish
+    शिरीष  for reporting and providing the backtrace information.
 
-  * Add new patch: initialize_vectors.diff
-
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 31 May 2016 13:55:26 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 31 May 2016 13:59:04 +0200
 
 kshisen (4:16.04.1-1) unstable; urgency=medium
 
