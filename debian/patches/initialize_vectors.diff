@@ -1,6 +1,16 @@
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Wed, 15 Jun 2016 10:57:07 +0200
+Subject: initialize_vectors
+
+---
+ src/board.cpp | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/board.cpp b/src/board.cpp
+index 53f2abb..db2064e 100644
 --- a/src/board.cpp
 +++ b/src/board.cpp
-@@ -532,8 +532,8 @@
+@@ -532,8 +532,8 @@ void Board::newGame()
  
  
      std::vector<int> oldfield = m_field;
