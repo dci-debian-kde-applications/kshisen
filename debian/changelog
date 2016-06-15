@@ -1,10 +1,11 @@
-kshisen (4:16.04.2-1~1.gbpe48997) UNRELEASED; urgency=medium
+kshisen (4:16.04.2-1~2.gbpc68dd5) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @e48997bebe71cb5b93231d1039671012ae71b0a1 **
+  ** SNAPSHOT build @c68dd57dff87bfe75ebe602e38a38cb84019b752 **
 
   * Refresh patches
+  * Drop initialize_vectors.diff, fixed upstream
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 10:57:09 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 12:53:02 +0200
 
 kshisen (4:16.04.1-2) unstable; urgency=medium
 
