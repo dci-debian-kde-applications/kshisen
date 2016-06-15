@@ -1,3 +1,11 @@
+kshisen (4:16.04.2-1~1.gbpe48997) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @e48997bebe71cb5b93231d1039671012ae71b0a1 **
+
+  * Refresh patches
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 10:57:09 +0200
+
 kshisen (4:16.04.1-2) unstable; urgency=medium
 
   * Add new patch: initialize_vectors.diff (Closes: #825789) Thanks to shirish
