@@ -1,14 +1,31 @@
-kshisen (4:16.04.1-0neon) xenial; urgency=medium
+kshisen (4:16.04.2-1) unstable; urgency=medium
 
-  * New release
+  [ Automatic packaging ]
+  * Refresh patches
+  * Drop initialize_vectors.diff, fixed upstream
 
- -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:45:19 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 22 Jun 2016 21:54:29 +0200
 
-kshisen (4:15.12.2-1~) UNRELEASED; urgency=medium
+kshisen (4:16.04.1-2) unstable; urgency=medium
 
+  * Add new patch: initialize_vectors.diff (Closes: #825789) Thanks to shirish
+    शिरीष  for reporting and providing the backtrace information.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 31 May 2016 13:59:04 +0200
+
+kshisen (4:16.04.1-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+  * Remove menu file and friends
   * New upstream release (15.12.2).
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 10:06:59 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 19:45:14 +0200
 
 kshisen (4:15.12.1-1) experimental; urgency=medium
 
