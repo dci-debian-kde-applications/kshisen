@@ -10,7 +10,7 @@ Uploaders: Daniel Schepler <schepler@debian.org>,
            Eshat Cakar <info@eshat.de>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake (>= 2.8.12~),
+Build-Depends: cmake (>= 3.1~),
                debhelper (>= 9),
                extra-cmake-modules (>= 1.7.0~),
                kdoctools-dev (>= 5.15.0~),
