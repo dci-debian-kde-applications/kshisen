@@ -1,10 +1,11 @@
-kshisen (4:16.08.0-1~1.gbp749f63) UNRELEASED; urgency=medium
+kshisen (4:16.08.1-1~1.gbp275dba) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @749f63c69135f97b394d591b1cf9462417fcb17f **
+  ** SNAPSHOT build @275dbab321c1fd9389ad0f63246c41812e54e426 **
 
   * Update build-deps and deps with the info from cmake
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 22:57:13 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 08 Sep 2016 22:57:38 +0200
 
 kshisen (4:16.04.2-1) unstable; urgency=medium
 
