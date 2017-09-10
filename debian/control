@@ -9,11 +9,10 @@ Uploaders: Daniel Schepler <schepler@debian.org>,
            George Kiagiadakis <gkiagiad@csd.uoc.gr>,
            Eshat Cakar <info@eshat.de>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
-           Maximiliano Curia <maxy@debian.org>
+           Maximiliano Curia <maxy@debian.org>,
 Build-Depends: cmake (>= 3.1~),
                debhelper (>= 9),
                extra-cmake-modules (>= 1.7.0~),
-               libkf5kio-dev,
                libkf5config-dev (>= 5.15.0~),
                libkf5coreaddons-dev,
                libkf5crash-dev (>= 5.15.0~),
@@ -23,13 +22,14 @@ Build-Depends: cmake (>= 3.1~),
                libkf5doctools-dev (>= 5.15.0~),
                libkf5kdegames-dev (>= 4.9.0~),
                libkf5kdelibs4support-dev,
+               libkf5kio-dev,
                libkf5kmahjongglib-dev,
                libkf5newstuff-dev,
                libkf5xmlgui-dev (>= 5.15.0~),
                libphonon4qt5-dev,
                libphonon4qt5experimental-dev,
                pkg-kde-tools (>> 0.15.15),
-               qtbase5-dev (>= 5.4)
+               qtbase5-dev (>= 5.4),
 Standards-Version: 4.1.0
 Homepage: http://games.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kshisen.git
