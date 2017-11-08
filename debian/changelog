@@ -1,3 +1,9 @@
+kshisen (4:17.08.3-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Nov 2017 10:59:52 +0000
+
 kshisen (4:17.08.2-0neon) xenial; urgency=medium
 
   * New release
