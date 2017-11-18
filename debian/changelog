@@ -1,11 +1,15 @@
-kshisen (4:17.08.1-1~1) UNRELEASED; urgency=medium
+kshisen (4:17.08.3-1~1) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * New upstream release (17.08.1)
   * Bump Standards-Version to 4.1.0.
   * Update upstream metadata
   * Update uploaders list as requested by MIA team (Closes: #879372)
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 31 Oct 2017 18:02:45 +0100
+  [ Pino Toscano ]
+  * New upstream release.
+
+ -- Pino Toscano <pino@debian.org>  Sat, 18 Nov 2017 11:25:20 +0100
 
 kshisen (4:17.08.1-0neon) xenial; urgency=medium
 
